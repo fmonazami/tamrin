@@ -1,0 +1,77 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.contienr{
+    width: 10px;
+    height: 300px;
+    position: absolute;
+    background-color: green;
+
+}
+
+.two{
+    position: absolute;
+    width: 77px;
+    height: 70px;
+    background-color: palevioletred;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    top:0%;
+}
+
+ 
+ .three{
+    position: absolute;
+    width: 77px;
+    height: 70px;
+    background-color: palevioletred;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    bottom:96%;
+    left:-700%;
+ }
+ .four{
+    position: absolute;
+    width: 77px;
+    height: 70px;
+    background-color: palevioletred;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    left:-650%;
+    bottom: 74%;
+    transform: rotate(90deg);
+ }
+ .five{
+    position: absolute;
+    width: 77px;
+    height: 70px;
+    background-color: palevioletred;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    right:-700%;
+    top:-20%;
+    transform: rotate(100deg);
+ }
+ .six{
+    width:20px;
+    height:20px;
+    background-color: yellow;
+    border-radius:20px;
+    position: absolute;
+    top:0%;
+    
+}
+.seven{
+    position: absolute;
+    width: 77px;
+    height: 70px;
+    background-color:green;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    top:50%;
+    transform: rotate(100deg);
+}
