@@ -1,0 +1,16 @@
+.contienr{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+
+}
+.one{
+    width: 300px;
+    height: 200px;
+    background-color: orangered;
+    position: absolute;
+    z-index: 2;
+    left: 30px;
+    bottom:-30px;
+}
